@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+无后台
+前端使用的Mock 来模拟数据
+技术栈：vue3 ,mkckjs,axios
