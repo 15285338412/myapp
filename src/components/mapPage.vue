@@ -1,13 +1,15 @@
 <template>
-$END$
+<div class="map">
+
+</div>
 </template>
 
 <script>
 export default {
-name: "mapPage"
+  name: "mapPage"
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 
 </style>

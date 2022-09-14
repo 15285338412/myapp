@@ -3,4 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 引入lib-flexible
+import 'lib-flexible/flexible'
+import './mock/index'
+
 createApp(App).use(store).use(router).mount('#app')
