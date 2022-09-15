@@ -196,7 +196,7 @@ export default {
         ],
       });
       // 图表自适应
-      window.onresize = myChart.resize;
+      // window.onresize = myChart.resize;
     });
 
     return {

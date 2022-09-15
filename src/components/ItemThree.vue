@@ -42,7 +42,7 @@ export default {
         ]
       });
       // echarts自适应
-      window.onresize = myChart.resize;
+      // window.onresize = myChart.resize;
     });
 
     return {

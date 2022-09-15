@@ -52,7 +52,7 @@ import MapPage from "../components/mapPage"
 .container {
   min-width: 1200px;
   max-width: 2048px;
-  margin: 0 auto;
+  margin: -0.225rem auto;
   padding: 0.125rem 0.125rem 0;
   display: flex;
   .item-left,

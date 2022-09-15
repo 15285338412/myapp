@@ -12,8 +12,10 @@ export default {
 </script>
 <style>
 body {
-  background: url("./assets/bg3.gif") top center no-repeat;
+  min-height: 100%;
+  background:url("./assets/bg3.gif") center center fixed no-repeat;
   background-size: 100% 100%;
+  object-fit:cover;
 }
 * {
   margin: 0;

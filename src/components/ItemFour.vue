@@ -19,6 +19,8 @@ export default {
       let myChart = $echarts.init(document.getElementById('chart'))
       myChart.setOption({
         grid:{
+          left:'3%',
+          bottom:'3%',
           containLabel:true
         },
         xAxis:{
@@ -92,7 +94,9 @@ export default {
           },
         ]
 
-      })
+      },)
+      // 图表自适应
+      // window.onresize = myChart.resize;
     })
   }
 }
