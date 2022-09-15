@@ -30,6 +30,9 @@ export default {
         },
         legend: {
           data: ["服饰", "数码产品", "家电", "家具", "日化"],
+          textStyle:{
+            color:'#ffffff'
+          }
         },
         //下载图片
         // toolbox: {

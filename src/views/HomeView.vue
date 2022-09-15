@@ -13,7 +13,9 @@
         <ItemTwo></ItemTwo>
       </ItemPage>
     </section>
-    <section class="item-center">中</section>
+    <section class="item-center">
+      <MapPage></MapPage>
+    </section>
     <section class="item-right">
       <ItemPage>
         <ItemThree></ItemThree>
@@ -25,22 +27,13 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import ItemPage from "../components/Item-Page.vue";
 import ItemOne from "../components/ItemOne.vue";
 import ItemTwo from "../components/ItemTwo.vue";
 import ItemThree from "../components/ItemThree.vue";
 import ItemFour from "../components/ItemFour.vue";
-export default {
-  name: "HomeView",
-  components: {
-    ItemPage,
-    ItemOne,
-    ItemTwo,
-    ItemThree,
-    ItemFour,
-  },
-};
+import MapPage from "../components/mapPage"
 </script>
 <style lang="less" scoped>
 .nav {
@@ -68,8 +61,7 @@ export default {
   }
   .item-center {
     flex: 5;
-    height: 10.5rpx;
-    border: 1px solid blue;
+    height: 10.5rem;
     padding: 0.125rem;
     margin: 0.25rem;
   }

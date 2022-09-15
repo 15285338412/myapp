@@ -25,3 +25,10 @@ export function getFourJsonData(){
         method:'GET'
     })
 }
+
+export function getChinaMap(){
+    return request({
+        url:'/map',
+        method:'GET'
+    })
+}

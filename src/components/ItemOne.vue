@@ -18,9 +18,9 @@ export default {
       const chartData = data.data.chartData
       const yData = chartData.map(v=>v.num)
       const xData = chartData.map(v => v.title)
-      console.log(yData,xData)
       let myChart = $echarts.init(document.getElementById("oneChart"));
       myChart.setOption({
+        tooltip:{},
         grid:{
           top:'3%',
           left:'2%',

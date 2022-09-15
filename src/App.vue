@@ -12,7 +12,7 @@ export default {
 </script>
 <style>
 body {
-  background: url("./assets/bj2.jpg") top center no-repeat;
+  background: url("./assets/bg3.gif") top center no-repeat;
   background-size: 100% 100%;
 }
 * {

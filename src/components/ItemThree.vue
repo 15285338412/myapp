@@ -13,14 +13,16 @@ export default {
     let $echarts = inject("echarts");
     let threeData = reactive({})
 
-    onMounted(async()=>{
+   onMounted(async()=>{
     const data =  await getThreeJsonData()
       threeData = data.data.chartData
-      console.log(threeData)
       let myChart = $echarts.init(document.getElementById('threeChart'))
       myChart.setOption({
         legend: {
-          top: 'bottom'
+          top: 'bottom',
+          textStyle:{
+            color:'#ffffff'
+          }
         },
         // 提示框
         tooltip: {
